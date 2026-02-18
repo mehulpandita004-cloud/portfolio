@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mehul Pandita | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+background:#020617;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+header h1{
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:100px 50px;
+min-height:100vh;
+}
+
+.hero{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h2{
+font-size:50px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin-top:15px;
+max-width:600px;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+border:none;
+color:black;
+font-weight:bold;
+cursor:pointer;
+border-radius:5px;
+text-decoration:none;
+}
+
+.btn:hover{
+background:#0ea5e9;
+}
+
+.card{
+background:#020617;
+padding:25px;
+margin-top:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.skills span{
+display:inline-block;
+background:#38bdf8;
+color:black;
+padding:8px 15px;
+margin:5px;
+border-radius:5px;
+font-weight:500;
+}
+
+.project a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+.contact a{
+display:block;
+margin:10px 0;
+color:#38bdf8;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:35px;
+}
+header{
+padding:15px;
+}
+}
+
+/* WhatsApp Button */
+.whatsapp-float{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+font-size:28px;
+width:60px;
+height:60px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 0 15px rgba(0,0,0,0.4);
+z-index:1000;
+transition:0.3s;
+}
+
+.whatsapp-float:hover{
+transform:scale(1.1);
+background:#1ebe5d;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Mehul Pandita</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Hello, I'm <span>Mehul Pandita</span></h2>
+<h3>Artificial Intelligence Student | Web Developer</h3>
+<p>
+I am a Computer Science student passionate about web development and AI.
+I love building professional websites and learning new technologies.
+I create modern and responsive websites for companies.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>
+I am a B.Tech 1st year student specializing in Artificial Intelligence and Web Development.
+I am passionate about creating professional websites and continuously improving my technical skills.
+My goal is to become a professional software developer and AI engineer.
+</p>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+<h3>Noida Institute of Technology</h3>
+<p>B.Tech - 1st Year</p>
+<p>Field: Artificial Intelligence & Computer Science</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="card skills">
+<span>Web Development</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Analytical Thinking</span>
+<span>Team Collaboration</span>
+<span>Adaptability</span>
+<span>Time Management</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="card project">
+<h3>Company Website Project</h3>
+<p>Professional website developed for business use.</p>
+<a href="https://mehulpandita004-cloud.github.io/brownie/" target="_blank">
+View Project →
+</a>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<div class="card contact">
+
+<a href="tel:6006703904">📞 Phone: 6006703904</a>
+
+<a href="mailto:mehulpandita004@gmail.com">📧 Email: mehulpandita004@gmail.com</a>
+
+<a href="https://github.com/mehulpandita004-cloud" target="_blank">
+💻 GitHub Profile
+</a>
+
+<a href="#">💼 LinkedIn: Mehul Pandita</a>
+
+<a href="https://wa.me/916006703904" target="_blank">
+💬 Chat with me on WhatsApp
+</a>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Mehul Pandita | All Rights Reserved</p>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/916006703904" class="whatsapp-float" target="_blank">
+💬
+</a>
+
+</body>
+</html>
